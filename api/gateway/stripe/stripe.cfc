@@ -17,8 +17,8 @@
 <cfcomponent displayname="Stripe Gateway" extends="cfpayment.api.gateway.base" hint="Stripe Gateway" output="false">
 
 	<cfset variables.cfpayment.GATEWAY_NAME = "Stripe" />
-	<cfset variables.cfpayment.GATEWAY_VERSION = "1.0.7" />
-	<cfset variables.cfpayment.API_VERSION = "2015-04-07" />
+	<cfset variables.cfpayment.GATEWAY_VERSION = "xx.xx.xx" />
+	<cfset variables.cfpayment.API_VERSION = "2020-08-27" />
 	<!--- stripe test mode uses different credentials instead of different urls --->
 	<cfset variables.cfpayment.GATEWAY_URL = "https://api.stripe.com/v1" />
 
